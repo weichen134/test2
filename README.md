@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 iOS-Slide-Menu [![Version](http://cocoapod-badges.herokuapp.com/v/iOS-Slide-Menu/badge.png)](http://cocoadocs.org/docsets/iOS-Slide-Menu)
 ---------
 
@@ -193,4 +194,9 @@ Userinfo contains a value with key "menu", which could have 2 values "left" and 
 This notification is posted once everytim a menu reveals
 Userinfo contains a value with key "menu", which could have 2 values "left" and "right"
 
+=======
+## 移动办公iphone
+
+test
+>>>>>>> b2830d059ceca99650206031789e70d8635c43e2
 
