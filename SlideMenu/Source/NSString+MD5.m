@@ -1,0 +1,28 @@
+//
+//  NSString+MD5.m
+//  SlideMenu
+//
+//  Created by GPL on 15/10/14.
+//  Copyright (c) 2015年 Aryan Ghassemi. All rights reserved.
+//
+
+#import "NSString+MD5.h"
+#import <CommonCrypto/CommonDigest.h>
+
+
+@implementation NSString(MD5)
+
+//32位MD5加密方式
+-(NSString *) md5HexDigest
+{
+    const char *original_str = [self UTF8String];
+    unsigned char result[CC_MD5_DIGEST_LENGTH];
+    CC_MD5(original_str, strlen(original_str), result);
+    NSMutableString *hash = [NSMutableString string];
+    for (int i = 0; i < 16; i++)
+        [hash appendFormat:@"%02X", result[i]];
+    return [hash lowercaseString];
+    
+}
+
+@end

@@ -181,6 +181,7 @@
 		CBF9F74B1C1E574500B7819C /* TaskSendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBF9F7491C1E574500B7819C /* TaskSendViewController.xib */; };
 		CBF9F74F1C1E6FFA00B7819C /* TaskListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF9F74E1C1E6FFA00B7819C /* TaskListModel.m */; };
 		CBF9F7521C1E756700B7819C /* TaskDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF9F7511C1E756700B7819C /* TaskDetailModel.m */; };
+		D338751F1C9FCAAA00AB1A60 /* tool.m in Sources */ = {isa = PBXBuildFile; fileRef = D338751E1C9FCAAA00AB1A60 /* tool.m */; };
 		D3587F721C2E38890022EFE9 /* share_fwk.png in Resources */ = {isa = PBXBuildFile; fileRef = D3587F6C1C2E38890022EFE9 /* share_fwk.png */; };
 		D3587F731C2E38890022EFE9 /* share_swk.png in Resources */ = {isa = PBXBuildFile; fileRef = D3587F6D1C2E38890022EFE9 /* share_swk.png */; };
 		D3587F741C2E38890022EFE9 /* share_xqtb.png in Resources */ = {isa = PBXBuildFile; fileRef = D3587F6E1C2E38890022EFE9 /* share_xqtb.png */; };
@@ -205,6 +206,8 @@
 		D3F3BE4B1C7DCD73006CC483 /* UIDeviceHardWare.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F3BE4A1C7DCD73006CC483 /* UIDeviceHardWare.m */; };
 		D3F6843C1C4E12440003E014 /* updateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F6843A1C4E12440003E014 /* updateViewController.m */; };
 		D3F6843D1C4E12440003E014 /* updateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3F6843B1C4E12440003E014 /* updateViewController.xib */; };
+		D3F702271CA10B2E00B9EB63 /* 11111.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F702261CA10B2E00B9EB63 /* 11111.png */; };
+		D3F702291CA12DAB00B9EB63 /* 22222.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F702281CA12DAB00B9EB63 /* 22222.png */; };
 		D3F825CD1C2F986E00E0EE16 /* background_login.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F825CC1C2F986E00E0EE16 /* background_login.png */; };
 /* End PBXBuildFile section */
 
@@ -483,6 +486,8 @@
 		CBF9F74E1C1E6FFA00B7819C /* TaskListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskListModel.m; sourceTree = "<group>"; };
 		CBF9F7501C1E756700B7819C /* TaskDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailModel.h; sourceTree = "<group>"; };
 		CBF9F7511C1E756700B7819C /* TaskDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailModel.m; sourceTree = "<group>"; };
+		D338751D1C9FCAAA00AB1A60 /* tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tool.h; sourceTree = "<group>"; };
+		D338751E1C9FCAAA00AB1A60 /* tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tool.m; sourceTree = "<group>"; };
 		D3587F6C1C2E38890022EFE9 /* share_fwk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_fwk.png; sourceTree = "<group>"; };
 		D3587F6D1C2E38890022EFE9 /* share_swk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_swk.png; sourceTree = "<group>"; };
 		D3587F6E1C2E38890022EFE9 /* share_xqtb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_xqtb.png; sourceTree = "<group>"; };
@@ -517,6 +522,8 @@
 		D3F684391C4E12440003E014 /* updateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = updateViewController.h; sourceTree = "<group>"; };
 		D3F6843A1C4E12440003E014 /* updateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = updateViewController.m; sourceTree = "<group>"; };
 		D3F6843B1C4E12440003E014 /* updateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = updateViewController.xib; sourceTree = "<group>"; };
+		D3F702261CA10B2E00B9EB63 /* 11111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11111.png; sourceTree = "<group>"; };
+		D3F702281CA12DAB00B9EB63 /* 22222.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22222.png; sourceTree = "<group>"; };
 		D3F7619C1C8D4E8F003D3461 /* GPHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GPHeader.h; path = SlideMenu/GPHeader.h; sourceTree = "<group>"; };
 		D3F825CC1C2F986E00E0EE16 /* background_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_login.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -555,6 +562,8 @@
 			isa = PBXGroup;
 			children = (
 				D3F7619C1C8D4E8F003D3461 /* GPHeader.h */,
+				D338751D1C9FCAAA00AB1A60 /* tool.h */,
+				D338751E1C9FCAAA00AB1A60 /* tool.m */,
 				15371EE81728E3B400A508F4 /* SlideMenu */,
 				15371F0F1728E3B400A508F4 /* SlideMenuTests */,
 				15371EE11728E3B400A508F4 /* Frameworks */,
@@ -722,6 +731,8 @@
 		15E7D319190C2894002EAE3F /* 图片 */ = {
 			isa = PBXGroup;
 			children = (
+				D3F702261CA10B2E00B9EB63 /* 11111.png */,
+				D3F702281CA12DAB00B9EB63 /* 22222.png */,
 				D3F1FA7D1C7EA0AF00A0248C /* checking.jpg */,
 				D39E55C21C463F2B000E5448 /* logo1.png */,
 				D3F825CC1C2F986E00E0EE16 /* background_login.png */,
@@ -1316,6 +1327,7 @@
 				AA835C371BA81878004C56EB /* pen.png in Resources */,
 				CB003E2B1C291D5D0024B181 /* fj_fankuiwenjian.png in Resources */,
 				D3587F751C2E38890022EFE9 /* share_yqtb.png in Resources */,
+				D3F702291CA12DAB00B9EB63 /* 22222.png in Resources */,
 				D3587F761C2E38890022EFE9 /* share_ysyb.png in Resources */,
 				D3587F821C2E43C30022EFE9 /* tuichu_head.png in Resources */,
 				15E7D327190C3DAE002EAE3F /* gear.png in Resources */,
@@ -1323,6 +1335,7 @@
 				15371EF51728E3B400A508F4 /* Default.png in Resources */,
 				AA835C3D1BA81878004C56EB /* setting_choose_btn.png in Resources */,
 				AAF18C001BCF91890097ABB4 /* 分享.png in Resources */,
+				D3F702271CA10B2E00B9EB63 /* 11111.png in Resources */,
 				AA87B4C01BE1F19A00CC0E22 /* RadioButton-Unselected.png in Resources */,
 				AA835C3F1BA81878004C56EB /* share_choose_btn.png in Resources */,
 				AAF18BFF1BCF91890097ABB4 /* 待办.png in Resources */,
@@ -1429,6 +1442,7 @@
 				CBB0840F1BEA24F900D7B3CE /* SKSTableView.m in Sources */,
 				AA58391A1BBA7550005DFF15 /* ExamineViewController.m in Sources */,
 				AA5144FD1BA84DD50080E4AB /* AFSecurityPolicy.m in Sources */,
+				D338751F1C9FCAAA00AB1A60 /* tool.m in Sources */,
 				CBF9F74F1C1E6FFA00B7819C /* TaskListModel.m in Sources */,
 				AA4E284D1BAAB98A007AF6BA /* yijianView.m in Sources */,
 				AA45B2921BB52F31000EBCD1 /* KxMenu.m in Sources */,
