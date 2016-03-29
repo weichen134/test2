@@ -89,20 +89,23 @@
     //添加两个可以缩放html页面文字的按钮，一个加，一个减
     //加号
     UIButton *addButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    addButton.frame = CGRectMake(280, 20, 20, 20);
+    addButton.frame = CGRectMake(self.view.frame.size.width-55, self.view.frame.size.height - 280, 50, 50);
     
-    [addButton setImage:[UIImage imageNamed:@"11111.png"] forState:UIControlStateNormal];
+    [addButton setImage:[UIImage imageNamed:@"加.png"] forState:UIControlStateNormal];
     [self.zaibanWebview addSubview:addButton];
+    addButton.backgroundColor = [UIColor lightGrayColor];
     addButton.alpha = 0.5;
-    
+    [addButton.layer setCornerRadius:5.0];
     [addButton addTarget:self action:@selector(plusBeishu) forControlEvents:UIControlEventTouchUpInside];
     //减号
     UIButton *cutButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    cutButton.frame = CGRectMake(280, 40, 20, 20);
+    cutButton.frame = CGRectMake(self.view.frame.size.width-55, self.view.frame.size.height - 220, 50, 50);
     
-    [cutButton setImage:[UIImage imageNamed:@"22222.png"] forState:UIControlStateNormal];
+    [cutButton setImage:[UIImage imageNamed:@"减.png"] forState:UIControlStateNormal];
     [self.zaibanWebview addSubview:cutButton];
     cutButton.alpha = 0.5;
+    cutButton.backgroundColor = [UIColor lightGrayColor];
+    [cutButton.layer setCornerRadius:5.0];
     [cutButton addTarget:self action:@selector(cutBeishu) forControlEvents:UIControlEventTouchUpInside];
     if ([self.subAppname rangeOfString:@"收文"].location != NSNotFound )
     {
